@@ -1,0 +1,29 @@
+{
+    "name": "tea-software/secure-socialite",
+    "description": "Secure, stateless OAuth state handling for Laravel Socialite",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "TEA Software",
+        "email": "contact@teasoftware.asia"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "SecureSocialite\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "SecureSocialite\\SecureSocialiteServiceProvider"
+        ]
+      }
+    },
+    "require": {
+      "php": "^8.0",
+      "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    }
+  }
+  
